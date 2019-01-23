@@ -1,0 +1,59 @@
+        HTML FORMS
+
+    HTML forms son usadas para aceptar inputs por parte del usuario.
+    
+    Los form van dentro la etiqueta <form> y dentro de dicha etiqueta se definen los atributos action y method.
+    
+    *El atributo action indica a donde se enviara la informacion cuando se envie el form (submit).
+    
+    *El atributo method indica el metodo http que se puede usar, ya sea get o post.
+    
+    
+Los campos para recibir información van dentro de la etiqueta <input>, y dependiendo el tipo que ocupes se define en el atributo type, ya sea para recibir el email, una contraseña. --- Para agregar un texto dentro del contenedor pero que cuando el usuario comience a ingresar datos se borre automaticamente, se usa la propiedad placeholder="texto"
+
+
+***Vincular una <label> a un <input>***
+Esto funciona por si se clickea la etiqueta para que el cursor se coloque automaticamente en el input relacionado a la label.
+
+1.- Se crea una label y se le agrega el atributo for="identificador"
+2.- Se crea el input y se le agrega un id="identificador"
+3.- Corroborar que el valor entre comillar para el for y para el id sea el mismo.
+4.- De esta manera queda vinculada la label con el input!
+
+
+La etiqueta <textarea> sirve para recibir multiline text!
+
+
+El atributo required se puede utilizar en aquellos campos que sea obligatorio su llenado, y en caso de que se dejen vacios, se mostrara una notificacion para que se llenen!
+
+Ejemplos:
+
+<label for="emailUsuario"> e-mail: </label>
+<input type ="email" id="emailUsuario" placeholder="Ingresa tu email" required> 
+
+
+************BUTTON************
+
+<button type ="tipo" > Texto Dentro del Boton </button>
+
+
+***************************************************
+RECORDAR QUE TODAS LAS ETIQUETAS HTML DE UN MISMO FORM VAN DENTRO DE  <form>    </form>
+
+***************************************************
+
+
+
+ <!-- form del login-->
+        <form action="" method="">
+            <!-- email del usuario -->
+            <label for="emailUsuario"> e-mail: </label>
+            <input type ="email" id="emailUsuario" placeholder="Ingresa tu email" required > 
+            
+            <!-- contraseña del usuario -->
+            <label for="passUsuario"> contraseña: </label>
+            <input type ="password" id="passUsuario" placeholder="Ingresa tu contraseña" required > 
+
+            
+            <button type="submit">Ingresar</button>
+        </form>

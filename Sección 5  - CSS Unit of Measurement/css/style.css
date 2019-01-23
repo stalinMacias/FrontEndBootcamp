@@ -1,0 +1,41 @@
+html{
+    font-size: 20px;
+}
+
+body{
+    background-color: aliceblue;
+    background-image: url(../img/venividivici.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+div{
+    height: 300px;
+    width: max;
+    background-color: antiquewhite;
+    margin-bottom: 3vmax;
+    margin-top:  10vmax;
+}
+
+.titulo{
+    color: gray;
+    text-align: center;
+    
+}
+
+#responsiveDesign{
+    height: 35vh;
+    width: 50vw;
+    background-color: red;
+   
+}
+
+#responsive2{
+    margin-top: 3vh;
+    padding: 5vmax;
+    background-color: darkslategrey;
+    color: aqua;
+    text-align: justify;
+    
+}

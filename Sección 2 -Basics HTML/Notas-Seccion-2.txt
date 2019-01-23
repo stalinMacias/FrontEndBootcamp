@@ -1,0 +1,54 @@
+El  doctype <!DOCTYPE html> le indica al navegador el tipo de lenguaje que se utilizara, en este caso HTML.
+
+Los elementos HTML pueden ser nested (Mezclados), ejemplo: Elementos dentro de un componente, links...
+
+Los atributos html como el id sirven para que los elementos html sean identificados por el css y el js.
+
+En el <head> va la metadata que se usará!, tambien va el <title> de la pagina web, los link y referencias a script!
+Toda la informacion que va en el head es invisible en el navegador, es decir, no se previsualiza directamente.
+
+Los meta elements se usan para especificar información acerca de los documentos html: 
+Ejemplo de un meta element:
+Tipo de caracteres:
+<meta charset="">
+
+
+En el <body> va todo el contenido visible de la pagina web.
+
+Los formatings html elements son aquellos que muestran un aspecto especial al texto: Negritas <b> Texto </b>, <strong>, <i>, <em>, <mark>.
+
+
+Listas Desordenadas:
+
+<ul>
+    <li> Elemento de Lista </li>
+    <li> Elemento de Lista </li>
+</ul>
+
+
+Listas Ordenadas:
+
+<ol>
+    <li> Elemento de Lista </li>
+    <li> Elemento de Lista </li>
+</ol>
+Propiedas CSS para modificar el idenficador inicial de la lista: type=""
+
+
+Defined Lists:
+
+<dl>
+    <dt> Cabezera 1 </dt>
+    <dd> Descripcion de la cabezera 1
+         mas texto
+         mas texto
+    </dd>
+    
+    <dt> Cabezera 2 </dt>
+    <dd> Descripcion de la cabezera 2
+         mas texto
+         mas texto
+    </dd>
+</dl>
+
+

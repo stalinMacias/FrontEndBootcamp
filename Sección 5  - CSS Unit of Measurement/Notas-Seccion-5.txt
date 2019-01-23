@@ -1,0 +1,73 @@
+Unidades de Medida ABSOLUTAS:
+
+    *in
+    *cm
+    *mm
+    *q
+    *pt
+    *pt
+    *px
+    
+El mas usado son pixels (px)
+
+Las unidades absolutas son fixed y no son recomendable para usar en tamaños de pantalla, por que los tamaños de pantalla son muchos, pueden ser usadas para controlar la impresión del layout!
+
+===============================================
+
+Unidades de Medida RELATIVAS:
+
+No tienen valores fixed!
+
+Sus valores son relativos a otros valores predefinidos o caracteristicas.
+
+Este tipo de unidades se recomienda para trabajar con responsive!
+
+    Sus valores pueden ser relativos al ancho y alto de la pantalla donde se esta visualizando!
+    
+    Tipos de Unidadees:
+    *Ex
+        Son rara vez usadas en desarrollo!
+    *Ch
+        
+    *Em
+        Es lo que se conoce como una unidad relativa a la fuente.
+        Su valor depende del tamaño de la fuente padre... Si el tamaño de la fuente padre es de 18px, 1 em = 18px
+        Siguiendo el valor anterior, 2 em = 36px;
+        
+    *Rem
+        Esta unidad se llama root relativa a la fuente, es decir que su valor depende del tamaño de la fuente root, en otras palabras, el tamaño que se encuentra definido en el elemento html{}
+        Si el valor de la fuente en el elemento html es 20px,
+        1 rem valdria 20px, 2rem = 40px y así equivalentemente!
+    
+        
+        PORCENTAJES:
+        Las unidades de porcentajes son utilizadas para el desarrollo de reponsive websites!
+
+===============================================
+
+Tamaño relativo del Viewport (Vista)
+
+Estas unidades se basan en el ancho y alto de la vista de la pantalla.
+
+    *vh   -> Viewports hight units
+    1 vh es 1% del total de pixeles del alto de la vista
+    
+    *vw   -> Viewporint width units
+    Al igual que vh, 1 vw es 1% del total de pixeles del ancho de la vista
+    
+    *vmax
+    *vmin
+        Las 2 unidades anteriores toman el % que se indique de acuerdo al tamaño maximo o minimo del viewport, ejemplo:
+        
+        50vmax toma el 50% del tamaño maximo de la altura del viewport
+        
+        20vmin toma el 20% del tamaño minimo del ancho del viewport
+        
+    Estas unidades sirven para dar solución a problemas de responsive dessign que los % no pueden cubrir!
+    
+Conclusiones Personales:
+    *Estas unidades se basan en el tamaño de visualizacion de la pagina web, no importa que el elemento HTML tenga un tamaño asignado, estas unidades hacen el calculo en base al espacio de visualizacion.
+    
+    
+    
+    

@@ -1,0 +1,32 @@
+==============================LINKS==================================
+LINK EXTERNOS:
+Para agregar un link se usa la etiqueta:
+<a href="url-recurso"> TEXTO </a>
+    *Para que el link se abra en una nueva pestaña se usa la propiedad:
+    target = "_blank"
+
+============================================================
+
+LINKS LOCALES:
+Misma linea de codigo que los links externos, la diferencia, es que dicho recursa apunta a los archivos dentro del directorio!.
+
+Para navegar entre carpetas dentro del proyecto se hacea así:
+
+<href="../css/stle.css">
+
+Los 2 puntos iniciales es para partir de la ruta
+
+============================================================
+
+LINKS ENTRE SECCIONES
+Dentro de un documento html es posible usar links para dirigirte especificamente a una sección del documento, este se hace auxiliandose de la etiqueta <div>
+
+A dicha etiqueta se le asigna un id, al cual se le hara referencia en el <a href="" >    </a>1
+    
+============================================================
+
+LINKS HACIA ARCHIVOS DESCARGABLES
+
+La referencia se hace de la misma manera usando href="", la diferencia es que despues del url se debe de poner el atributo download para indicar que se realice una descarga!
+
+<a href="url" download"> </a>

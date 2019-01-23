@@ -1,0 +1,23 @@
+
+        VIDEO
+        
+    Se pueden colocar videos en nuestra página web de 2 maneras:
+    
+        *Utilizando la etiqueta de html <video>
+        
+        *Directo de Youtube con el codigo fuente que proporciona al seleccionar en "Compartir -> Insertar"
+    
+    Utilizando la etiqueta de html se puede modificar el height, el width, activar controles e iniciar automaticamente el video.
+    
+        Codigo Fuente para insertar un video que esta en las carpetas del proyecto:
+    <video src = "urlDelVideoDentroDelProyecto" type="video/extension" controls autoplay> </video>
+        
+        
+***************************************************************
+
+        AUDIO
+    Se coloca utilizando la etiqueta <audio>
+    
+        Codigo fuente para insertar un audio que se encuentre en las carpetas del proyecto:
+        
+            <audio src = "urlDelAudio" controls> </audio>

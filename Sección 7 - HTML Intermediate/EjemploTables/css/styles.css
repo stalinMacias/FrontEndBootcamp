@@ -1,0 +1,23 @@
+td{
+    text-align: center;
+}
+
+th{
+    color: red;
+    border: 3px solid #ffffff;
+}
+
+td{
+    width: 10%;
+    height: 15%;
+    color:  chartreuse;
+    border: 3px solid #ffffff;
+}
+
+table{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}

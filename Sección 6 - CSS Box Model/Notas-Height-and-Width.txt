@@ -1,0 +1,19 @@
+Cuando no se especifica un valor al height o al width, se toma como valor por default el valo auto, el cual le deja el trabajo al navegador de calcular los valores.
+
+Pero se puede tener control total de estos valores!.
+
+La propiedad box-sizing: le dice al navegador lo que el height y width deben incluir.
+-Por default esta el valor content-box, el cual incluye solamente el area del contenido.
+
+-Si se usa el valor boder-box se incluye el padding y el border en el tamaño total del height y width.
+
+
+Se puede especificar el tamaño maximo y minimo tanto del height como del width:
+
+    max-height:
+    min-height:
+    
+    max-width:
+    min-width:
+    
+    

@@ -1,0 +1,47 @@
+Los CSS Selectores:
+
+Existen 3 tipos de selectores:
+    *Selector de Tipo: ----> p,body{}
+    *Selectore de Clase ---> nombreClase{}
+    *Selector de ID     ---> #nombreID{}
+    
+===============================================
+
+Propiedades relacionadas al Color:
+    *background-color
+    *color
+ El color puede ser formado por :
+    -Nombre de un Color
+    -#000000  -> Hex Code
+    -rgb(255,255,255) -> del 0 al 255...
+    
+===============================================
+
+Propiedades relacionadas al Background:
+    *background-color:
+    *background-image: url(urlImagen)
+    *background-repeat:
+    *background-position:
+    *background-size:
+    *background-attachment:
+    
+===============================================
+
+Para acceder a las propiedades relacionadas a los font, escribir font y se desplegaran todas las opciones validas!
+
+Para poder utilizar las font que google ofrece, basta con entrar a la pagina de font google, copiar la referencia especifica de cada fuente y hacer uso de la fuente en cuestion.
+<link .......>
+
+Las fuentes aceptan unidades tipo: Absolutas y Relativas!
+===============================================
+
+Propiedades del texto:
+
+Para acceder a las propieaddes mas comunes del texto, basta con escribir text- y seleccionar la que necesitemos.
+
+Tambien existen otras propiedades como:
+    *word-spacing:
+    *letter-spacing:
+    *text-decoration:     -> Aplica a los links!
+    
+    

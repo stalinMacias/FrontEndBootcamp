@@ -1,0 +1,7 @@
+CSS es la tecnología que controla la apariencia de un sitio web!
+
+Comentarios en CSS son /* texto texto */
+
+Vincular el documento .css con el .html:
+<link rel="stylesheet" href="css/miEstilo.css">
+

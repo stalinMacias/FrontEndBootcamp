@@ -1,0 +1,5 @@
+Al usar el tipo radio de input, los que pertenezcan a la misma categoria y se quiera lograr que solamente pueda ser seleccionado un radio, se debe de poner el atributo name="" y como valor colocar el mismo nombre a los input radio del mismo grupo!.
+
+
+=====================================================================================
+

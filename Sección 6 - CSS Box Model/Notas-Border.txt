@@ -1,0 +1,25 @@
+
+    BORDER
+    
+Sirven para especificar como deben lucir los bordes de un elemento.
+Se usan especialmente para aplicar decoracion a un elemento especifico.
+
+Se definen por 3 propiedades:
+    *border-style:
+    *border-width:
+    *border-color:
+
+Se pueden definir borders para cada lado, o el mismo borde para los 4 lados.
+
+-Si no se define un color al borde, por default será el color del texto.
+
+Se pueden definir las 3 propiedades en una sola linea de codigo:
+
+    border: tamaño estilo color;
+    
+    
+
+    OUTLINE
+Se usa para marcar el contorno de un elemento.
+Tiene las mismas propiedades que border.
+

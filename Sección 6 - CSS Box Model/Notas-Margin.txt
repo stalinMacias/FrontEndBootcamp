@@ -1,0 +1,26 @@
+
+    MARGIN
+    
+Es el espacio que se genera alrededor de los elementos y es aplicado en la orilla del elemento.
+
+
+Puedes especificar individualmente el margin de cada lado (top,bottom,rigth,left) o puedes especficarlo en una sola linea de codigo:
+    margin top rigth bottom left;
+    margin 5px 8px 10px 12px
+    
+O de la siguiente manera:
+    margin topybottom rithyleft
+    margin 10px 25px;
+
+O si se desea aplicar el mismo tamaño de margin a los 4 lados:
+    margin todosLados;
+    margin 10px;
+
+
+**********MARGIN BOTTOM Y MARGIN TOP DE 2 ELEMENTOS SEGUIDOS*******
+Cuando se le aplica X cantidad de margin al bottom y al top de 2 elementos seguidos, solamente se aplica como margin entre ambos la cantidad mayor, ya sea la del bottom o la del top, pero solamente la mayor, NO SE SUMAN!.
+
+
+El usar el atributo auto centra el contenedor:
+margin: tamaño auto;
+

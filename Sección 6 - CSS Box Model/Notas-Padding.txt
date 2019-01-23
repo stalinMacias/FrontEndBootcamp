@@ -1,0 +1,16 @@
+
+    PADDING
+    
+Es el espacio entre el contenido del elemento y los bordes del mismo.
+
+Puedes especificar individualmente el padding de cada lado (top,bottom,rigth,left) o puedes especficarlo en una sola linea de codigo:
+    padding top rigth bottom left;
+    padding 5px 8px 10px 12px
+    
+O de la siguiente manera:
+    padding topybottom rithyleft
+    padding 10px 25px;
+
+O si se desea aplicar el mismo tamaño de padding a los 4 lados:
+    padding todosLados;
+    padding 10px;

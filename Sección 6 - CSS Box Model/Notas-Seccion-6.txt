@@ -1,0 +1,34 @@
+Existen 2 tipos de elementos HTML: inline y block
+    display: inline;
+    display: block;
+    
+    *block
+        Por default tienen el mismo tamaño de alto que el contenido y abarcan todo el ancho de su contenedor a pesar de que su contenido no lo haga.
+        Ejemplo: div, h1 to h6
+    
+    *inline
+        Abarcan el ancho y alto de su contenido, no ocupan todo el espacio de su contenedor y no se puede cambiar su ancho o alto.
+        No ocupan una linea para ellos solos y toman solo el espacio que requieren.
+        
+    
+    APLICANDO CSS SE PUEDE MODIFICAR EL COMPORTAMIENO DE UN ELEMENTO, es decir, un block puede comportarse como un inline y viceversa.
+    
+    Para poder hacer dicha acción, se usa la propiedad display:
+    Esta propiedad acepta un valor llamado inline-block, el cual hace que el elemento html actue como un inline element pero con la caracteristica de que se le puede modificar el ancho, alto, padding, margin, etc...
+    
+===================================================================
+   
+        BOX MODEL
+        
+    Es la base del diseño CSS ya que describe como un elemento es mostrado y como interactua con otros elementos.
+    
+    Propiedades del BOX MODEL:
+        *padding
+        *margin
+        *width
+        *height
+        *border
+        
+===================================================================
+
+El resto de notas acerca de padding, margin, height y width estan en su respectivo archivo de notas!

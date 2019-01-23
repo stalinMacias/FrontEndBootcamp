@@ -1,0 +1,10 @@
+Para usar una imagen se usa la etiqueta <img>
+Cuenta con 2 parametros:
+src=""     -> URL donde esta la imágen
+alt=""     -> Información que se mostrará al usuario cuando no cargue la imagen
+
+
+<img src = "url" alt = "Texto por Default">
+Para controlar el tamaño de la imagen se usa width y height.
+
+A una imagen se le puede asignar un link externo al que se redireccione cuando sea clickeada!

@@ -1,0 +1,75 @@
+En el archivo css, el usar
+* {
+
+}
+Hace referencia a todos los elementos!
+
+================================================================================
+
+Se puede aplicar el mismo estilo a 2 etiquetas, elementos, clases.
+Solamente basta con separarlos cada uno con una coma(,)
+
+elemento1,elemento2{
+    estilos ;
+}
+
+#id1,#id2{
+    estilos ;
+}
+
+
+================================================================================
+
+Para aplicarle estilo a todos los elementos de un mismo tipo dentro de un id o una clase, primero se comienza con el id y despues con el elemento html en comun a los que se les aplicará el estilo:
+
+#id1 elemento, #id2 elemento{
+    estilos ;
+}
+
+
+===============================================================================
+El button tiene un atributo llamada cursor: a la cual, al asignarle cierta propiedad será la manera en que se comporte cuando el mouse pase por encima del mismo.
+
+button{
+/*Hará que parezca un boton seleccionable*/
+    cursor: pointer;
+}
+
+===============================================================================
+Para simular un efecto un poco 3D:
+
+/*Le da un efecto al contorno*/
+    /*El cuarto valor de rgba es la transparencia(valor1,valor2,valor3,transparencia)*/
+    box-shadow: 0px 0px 10px rgba(0,0,0,1);
+
+
+===============================================================================
+
+Existe una manera de especificar que comportamiento tendran los elementos cuando se realice cierta acción con ellos, ya sea pasar el cursor por encima(hover), cuando esten seleccionados(focus), etc.
+
+Es por medio de clases inmersas, es decir:
+    *Primeramente se especifica el elemento, seguido de : y despues la acción con la cual accionará, ejemplo:
+-Cuando se seleccionen los inputs:
+
+input:focus{
+    background-color:white;
+    border 1px solid crimson;
+}
+
+===============================================================================
+
+    El atributo transition sirve para darle un corto periodo de tiempo al efecto que se programo cuando se realice cierta accion con el elemento, dicho atributo transition debe de ir en el codigo del elemento no de la accion del elemento:
+    
+    ***El primer valor de transition indica el atributo al que se le aplicará la transition, es decir, que si solamente cambia el background-color, solamente se debería colocar asi:
+    transition background-color tiempo;
+        Pero si son varios los atributos que cambian es mejor poner all***
+    
+    elemento{
+        /**Aqui va transtition/
+        transition: all tiempoSegundos;
+    }
+
+    
+    elemento:accion{
+        /*Aqui no va transition*A/
+    }

@@ -1,0 +1,62 @@
+COMENTARIOS EN HTML
+Los comentario en HTML se hacen de la siguiente manera:
+
+Comentario por bloques:
+<!--    TEXTO
+        TEXTO   
+        TEXTO
+-->
+
+Comentario de una sola linea:
+<!-- TEXTO TEXTO TEXTO -->
+
+==================================================================
+
+    TABLES
+Las tablas se definen con la etiqueta <table> </table>
+
+Dentro de las cuales se usan las siguientes etiquetas:
+
+    <tr>  </tr>     ---> Indican una columna de la tabla
+    <th>  </th>     ---> Indican los header de la tabla
+    <td>  </td>     ---> Indican los datos de las tablas
+    
+Se utilizan las etiquetas <th> y <td> dentro de la etiqueta <tr>, es decir, dentro de una columna se agregan los datos de la tabla o los header!
+
+    Aplicandoles css se obtiene una vista mas agradable de la información presentada en tablas.
+
+==================================================================
+    
+    HTML entities:
+    
+    Si se requieren mostrar caracteres especiales en el sitio web, se recurreo a los HTML entities.
+    Para conocer mas acerca de las mismas, buscar la lista completa en google y utilizar la que se requiera!
+
+=================================================================
+
+    Semantic Elements
+Fueron introducidos en HTML5 y ayudan a los search engines y render screens para mostrar la pagina web.
+
+Los mas comunes son:
+    *<header>
+    *<main>
+    *<footer>
+Como su nombre indica:
+    
+    -Dentro del header debemos colocar la cabezera de nuestra pagina, es decir, lo primero que se visualizara. Comunmente van links, menus, etc...
+    
+    -Dentro del main va todo el cuerpo de la pagina....
+    
+    -Dentro del footer va el pie de pagina, lo ultimo, ejemplo: Contacto, Redes Sociales, etc...
+    
+***************************************************************
+    ETIQUETA NAV:
+    Se usa esta etiqueta para definir un conjunto de links.
+
+    <nav>
+        <a href="/html/">HTML</a>
+        <a href="/css/">CSS</a>
+        <a href="/js/">JavaScript</a>
+    </nav>
+    
+    
