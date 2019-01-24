@@ -1,0 +1,10 @@
+    La propiedas z-Index te permite crear diseños mas complejos, se encarga de controlar el orden vertical de los elementos que se encuentran encima unos de otros.
+    
+    
+    Sin la propiedad z-Index, los elementos se muestran en el orden en que van apareciendo en el codigo HTML, pero cuando se activa la propiedad z-Index, se van acomodando en base a la siguiente regla:
+    
+    ***El elemento que tenga el mayor valor en el z-Index: valorNumerico; sera el que se posicione por encima del resto que tengan menor valor! ***
+    
+    Para los elementos que no manejen la propiedad z-Index, no tendrá efecto alguno sobre ellos!.
+    
+    ******************* /*Para que pueda funcionar correctamente el z-index, el elemento tiene que tener el atributo position:absolute; de lo contrario no funcionará*/ *******************

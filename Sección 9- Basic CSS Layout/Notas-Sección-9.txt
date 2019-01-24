@@ -1,0 +1,58 @@
+Propiedad position:
+
+    Esta propiedad sirve para manejar la posicion de los elementos en la pagina web.
+
+*********************************************************
+*Atributo fixed
+
+position: fixed;
+    Sirve para que el elemento se coloque y se mantenga en el mismo lugar aunque se deslize la barra de navegación.
+    
+    Los parents del elemento ya no se toman en cuenta para la posicion.
+    
+    -Normalmente se usa en fixed header y barras de navegación.
+    Se les puede aplicar tambien los atributos top, bottom, left, right.
+    
+*********************************************************
+*Atributo relative
+
+position: relative;
+
+    Se utiliza comunmente para aplicar estilos a elementos que se encuentran consecutivos.
+    
+    Los parents del elemento NO son ignorados, la posicion se hace en base a ellos.
+
+*********************************************************
+*Atributo absolute
+
+position: absolute;
+
+    Es posicionado a la posicion relativa mas cercana de su parent, o es posicionado a la esquina superior izquierda de tu pantalla.
+    
+    ***Si el elemento parent tiene la propiedad position:relative; se alineara a la posición del mismo, de lo contrario se alineara a la esquina superior izquierda mas cercana, pero se saldra el flujo de su parent.
+    
+*********************************************************
+
+/*Como se puede observar, al aplicar position:aboslute a un elemento que su parent no tiene position:relative , dicho elemento se posicion de acuerdo a la pantalla y no al parent!*/
+#box-in-no-relative{
+    top:100px;
+    right: 150px;
+}
+
+
+/*Como se puede observar, al aplicar position:aboslute a un elemento que su parent SI tiene position:relative , dicho elemento se posicion de acuerdo a la esquina superior izquierda del parent!*/
+#box-in-relative{
+    top: 100px;
+    right: 150px;
+}
+
+*********************************************************
+            PROPIEDAD float: ;
+            
+        Cuando se le aplica esta propiedad a un elemento, dicho elemento es removido del flujo del documento html!
+    
+    Un ejemplo es al aplicarle esta propiedad a una imagen, dicha imagen cambiará su flujo de posición de acuerto al valor asignado, y el resto de elementos dentro de su mismo parent la van a rodear.!
+    
+*********************************************************
+    
+    
