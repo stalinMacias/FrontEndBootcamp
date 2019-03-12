@@ -1,0 +1,16 @@
+*{
+    box-sizing: content-box;
+}
+
+div{
+    padding: 2em;
+    margin-top: 2em;
+}
+
+#linearGradient{
+    background: linear-gradient(15deg, tomato,blue);
+}
+
+#radialGradient{
+    background: radial-gradient(blue,tomato,green);
+}

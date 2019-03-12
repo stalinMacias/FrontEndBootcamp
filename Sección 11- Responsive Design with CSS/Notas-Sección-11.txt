@@ -1,0 +1,26 @@
+/*              Notas Sección 11        */
+
+*********************************************************************
+
+    *** Siempre que un sitio se quiera hacer responsive, se debe de agregar la etiqueta viewport!
+    
+
+/*            meta = viewport        */
+
+    <meta name = "viewport" content = "width= device-width, initial-scale = 1.0">
+    
+    
+/*            @media screen and (condition){}  */
+
+    Se usa @media screen and (condition){} para ir creando el codigo CSS que se ejecutará cuando la condicion sea cumplia.
+        
+    Como condición se puede tomar el ancho de la pantalla, a partir del max o del min, la orientación de la pantalla (portrait,landscape)....
+    
+    
+    
+    Ejemplo:
+    Codigo mientras el tamaño del width sea menor a 600px:
+    
+    @media screen and (max-width:600px){
+        //Codigo CSS
+    }

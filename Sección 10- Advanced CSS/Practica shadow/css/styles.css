@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    color: blue;
+    
+    box-shadow: inset -10px 5px 15px 2px green;
+            
+        /*
+        box-shadow: inset orientaciónIzquierdaDerecha orientaciónArribaAbajo blurRadius sizeOfRadius Color
+        */
+}
+
+p{
+    margin: 0px;
+}
+h1{
+    font-size: 3em;
+    font-family: cursive;
+    text-align: center;
+    color: tomato;
+    margin: .5em;
+    border-bottom: .05em solid gray;
+    margin-bottom: .2em;
+
+    text-shadow: 8px -5px 20px blue;
+}

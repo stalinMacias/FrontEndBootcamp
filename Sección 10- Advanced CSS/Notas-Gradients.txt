@@ -1,0 +1,20 @@
+*********************************************************************
+    /*            gradients         */
+    
+    Se usan para crear transiciones suaves entre 2 o mas colores!
+    
+    Existen 2 tipos de gradients:
+        *Linear -> linear-gradient(DIRECCION, color1,color2,colorN);
+                                    
+                            DIRECCION: to Right, to Bottom, to Left, to Top; depende como querramos que se cree la transicion del color!
+                                O tambien se pueden usar grados deg:
+                            15 deg, 20 deg, etc...
+                            
+        *Radial -> radial-gradient(DIRECCION, color1,color2,colorN);
+                    
+                    Igual que linear-gradient en los atributos!
+                    
+                    
+    *** Esta propiedad se usa con la propiedad background.
+        background: linear-gradient();  
+        background: radial-gradient();

@@ -1,0 +1,39 @@
+    /*            shadows       */
+*********************************************************************
+    /*box-shadow*/
+    
+    Esta propiedad sirve para darle un efecto de sombra a un contenedor!
+    Si se activa la propiedad inset, la sombra se creará dentro del contenedor, sino, será afuera
+    
+    
+        Sintaxis:
+        
+    box-shadow: inset orientaciónIzquierdaDerecha orientaciónArribaAbajo blurRadius sizeOfRadius Color
+    
+    
+    el parametro orientaciónIzquierdaDerecha:   Si es positivo, se orienta a la derecha, si es negativo a la izquierda.
+    
+    el parametro orientaciónArribaAbajo:        si es positivo, se orienta en el bottom, si es negattivo en el top
+    
+    el parametro blurRadius:                    siirve para darle el efecto!
+    
+    el parametro sizeOfRadius:                  sirve para darle el tamaño del radio!
+    
+    
+    Se pueden crear varias sombras dentro del mismo box-shadow
+    
+*********************************************************************
+    /*text-shadow*/
+    Al igual que box-shadow pero aplicado a textos!
+        
+        Sintaxis:
+        
+    La sintaxis de text-shadow es con 3 parametros y un color:
+    
+    text-shadow: OrientacionIzquierdaDerecha OrientacionArribaAbajo NivelDesvanecido color;
+    
+            OrientacionIzquierdaDerecha = Si es positivo: Hacia la Derecha, si es Negativo: Hacia la Izquierda
+            OrientacionArribaAbajo = Si es positivo: Hacia Arriba, si es Negativo: Hacia Abajo
+            NivelDesvanecido = Nivel del desvanecido[Posiivos]
+            color = color del efecto sombra!
+            

@@ -1,0 +1,32 @@
+/* Estilo mientras el tamaño de la pantalla sea menor a 200px   */
+@media screen and (max-width:200px){
+    
+    div{
+        background: linear-gradient(15deg, black,orange,purple);
+        padding: 2em;
+    }
+
+}
+
+/* Estilo mientras el tamaño de la pantalla se encuentre en 200px y 600px   */
+@media screen and (min-width:200px) and (max-width:600px){
+    
+    div{
+        background: linear-gradient(15deg, red,blue,tomato);
+        padding: 2em;
+    }
+
+}
+
+/* Estilo mientras el tamaño de la pantalla sea mayor a 600px   */
+@media screen and (min-width:600px){
+    
+    div{
+        background: linear-gradient(5deg, gray,green,cyan);
+        padding: 2em;
+    }
+
+}
+
+
+

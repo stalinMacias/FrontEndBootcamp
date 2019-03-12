@@ -1,0 +1,29 @@
+/*              Notas Sección 10        */
+
+*********************************************************************
+    /*            border-radius         */
+    
+    El border-radius sirve para darle un borde circular a los elementos.
+    Para crear un circulo, basta con indicar:
+        
+        border-radius: 50%;
+        
+        border-radius: TopLeft, TopRigth, BottomRigth, BottomLeft;
+        
+*********************************************************************
+    /*            box-sizing       */
+
+box-sizing	Defines how the width and height of an element are calculated: should they include padding and borders, or not.
+
+The box-sizing property allows us to include the padding and border in an element's total width and height.
+
+If you set box-sizing: border-box; on an element padding and border are included in the width and height:
+
+    Uso de box-sizing
+    
+        * {
+          box-sizing: border-box;
+        }
+
+            
+            
