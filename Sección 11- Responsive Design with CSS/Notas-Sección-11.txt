@@ -21,6 +21,6 @@
     Ejemplo:
     Codigo mientras el tamaño del width sea menor a 600px:
     
-    @media screen and (max-width:600px){
+    @media screen and (min-width:200px) and (max-width:600px){
         //Codigo CSS
     }

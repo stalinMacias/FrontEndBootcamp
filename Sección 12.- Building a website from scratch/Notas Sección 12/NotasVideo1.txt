@@ -1,0 +1,21 @@
+            /*      Notas Video 1       */
+            
+    En HTML5 se utilizan las siguientes etiquetas para organizar la estructura del sitio web:
+        <header>    </header>
+        <content>   </content>
+        <footer>    </footer>
+    
+    Para crear una barra de navegación, se usa la etiqueta 
+        <nav> </nav>
+        
+    
+        Crear una lista sin necesidad de copy paste cada elemento:
+            
+            tipoLista > tipoDeCadaElementoLista * numeroElementos > tipoDeLaEtiquetaDeCadaLista
+            
+        Ejemplo: Crear una lista desordenada con 5 elementos tipo link:
+            
+            ul > li*5 > a
+            
+        -Una vez escrito ese shortcut, se presiona tab y se generará la lista deseada!
+        

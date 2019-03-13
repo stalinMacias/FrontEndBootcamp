@@ -1,5 +1,5 @@
-/* Estilo mientras el tamaño de la pantalla sea menor a 200px   */
-@media screen and (max-width:200px){
+//Estilo mientras el tamaño de la pantalla sea menor a 200px 
+@media screen and (min-width:0px) and (max-width:200px){
     
     div{
         background: linear-gradient(15deg, black,orange,purple);

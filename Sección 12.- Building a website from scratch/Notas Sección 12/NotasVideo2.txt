@@ -1,0 +1,5 @@
+            /*      Notas Video 2       */
+            
+    Es super importante visualizar y comprender que cada sección esta contenida dentro de otro elementos.
+    
+    Para un mejor trabajo y diseño, distribuir correctamente los elementos dentro de otros elementos....
