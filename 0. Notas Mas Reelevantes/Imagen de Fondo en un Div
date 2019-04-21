@@ -1,0 +1,21 @@
+Para poner una imagen de fondo en un div, se usan las siguientes propiedades:
+
+
+background-image: url(urlImagen);
+background-size: cover  //Con esta propiedad, la imagen se ajusta al tamaño del contenedor
+
+*********************************
+
+Los elementos que estan dentro del elemento al que se selecciono de fondo la imagen, para aplicarseles un margen y que se mantengan dentro del elemento sin distorsionar el diseño, es necesario:
+
+position: relative;
+lugarDeMarge: tamañoMargen;
+
+
+Ejemplo:
+
+position:relative;
+top:100px;
+
+
+*********************************

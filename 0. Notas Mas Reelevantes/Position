@@ -1,0 +1,26 @@
+El utilizar el atributo relative de la propiedad position indica que el atributo de position (top,bottom, ...) se colocará acorde al elemento donde se esta indicando esta posición
+
+
+
+
+
+Con el atributo absolute se acomodarán los elementos dependiendo la ultima posición relative indicada.... y el valor definido enseguida de absolute se aplica al elemento actual!
+
+
+
+Ejemplo: Posicionar el elemento h2 en el bottom de la etiqueda div que se encuentra dentro de la misma que esta dentro de la clase contenedor:
+
+
+
+contenedor{
+    position:relative;
+}
+
+
+div h2{
+    position: absolute;
+    bottom 0px;
+    width: 100%;
+}
+
+

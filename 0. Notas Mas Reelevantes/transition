@@ -1,0 +1,25 @@
+CSS transitions allows you to change property values smoothly (from one value to another), over a given duration.
+
+
+Link para checar toda la documentación:
+
+https://www.w3schools.com/css/css3_transitions.asp
+
+
+*** Agregar varios efectos a una transicion ***
+
+en el elemento donde se define la transicion, cada una se separa con una , (coma) y a cada una se le asigna un tiempo
+
+y en el elemento:hover se definen los efectos que se aplicaran.
+
+    Ejemplo:
+
+a{
+    transition: box-shadow 3s, background-color 2s;
+}
+
+a:hover{
+    box-shadow: 10px 10px 25px rgba(0,0,0,0.5);
+    
+    background-color: #BBA69B;
+}

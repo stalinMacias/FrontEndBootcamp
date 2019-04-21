@@ -1,0 +1,24 @@
+Para hacer el diseño responsive de una pagina web, se recomienda hacerlo de la siguiente manera:
+
+
+1.- Hacer el primer diseño css de la pagina para moviles.
+
+2.- Adaptar el diseño de moviles que se acaba de crear para que se visualice bien en los diferentes dispositivos, para hacer esto se utiliza: @media ....
+
+    Ejemplo:
+
+Adaptar "X" pagina para que se visualice correctamente en tablets (min-width: 750px)
+    *A partir de 750px se considera como tableta!
+
+@media screen and (min-width: 750px){
+    /* Codigo css para modificar la visualizacion de los elementos cuando el ancho de la pantalla sea mayor a los 750px (Tablet!)*/
+  
+}
+
+
+        IMPORTANTE: 
+        
+Siempre agregar a la pagina que se quiera hacer responsive el meta viewport:
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">

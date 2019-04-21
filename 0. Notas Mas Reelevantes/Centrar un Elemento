@@ -1,0 +1,9 @@
+Para centrar un elemento se requiere utilizar la propiedad de margin de la siguiente manera:
+
+
+margin: MargenTopAndBottom auto;
+
+    Ejemplo:
+Dar un margen de 10px al top y al bottom pero que quede centrado el elemento
+
+margin: 10px auto;
