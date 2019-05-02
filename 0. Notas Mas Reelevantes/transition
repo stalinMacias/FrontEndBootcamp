@@ -10,12 +10,20 @@ https://www.w3schools.com/css/css3_transitions.asp
 
 en el elemento donde se define la transicion, cada una se separa con una , (coma) y a cada una se le asigna un tiempo
 
-y en el elemento:hover se definen los efectos que se aplicaran.
+y en el elemento:hover se definen los efectos que se aplicaran. *** Si se aplicara el mismo tiempo a todas las transiciones, se puede utilizar la palabra all....
 
     Ejemplo:
 
 a{
     transition: box-shadow 3s, background-color 2s;
+    
+    /* Se le asigna un tiempo diferente a cada transicion */
+}
+
+o tambien....
+a{
+    transition: all 3s;
+    /* Todas las transiciones tienen el mismo tiempo */
 }
 
 a:hover{
@@ -23,3 +31,5 @@ a:hover{
     
     background-color: #BBA69B;
 }
+
+

@@ -1,0 +1,14 @@
+            border-radius
+    
+    Esta propiedad se puede aplicar para obtener esquinas redondeadas o bien un circulo completo.
+    
+    
+    Para obtener un circulo completo:
+    
+            border-radius: 50%;
+            
+    Para obtener esquinas redondeadas:
+    
+            border-radius: 50% 0px;
+    
+    

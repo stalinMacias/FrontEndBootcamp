@@ -1,0 +1,20 @@
+            linear gradient
+            
+Esta propiedad sirve para obtener un efecto de barrido con los colores que se le indiquen como atributos.
+
+
+Sintaxis
+
+
+linear-gradient(color1,color2)
+
+
+        Puedes ser utilizado junto con una imagen de fondo para de esta manera obtener un efecto aun mejor
+    
+    Ejemplo:
+    
+background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)), url(urlImagen);
+
+
+Como se puede apreciar, para aplicar el efecto de linear gradient cuando se esta utilizando una imagen de fondo, se debe de hacer como un atributo de background-image. 
+El primer atributo es el linear-gradient y el segundo es el url de la imagen que se utilizará de fondo!

@@ -1,0 +1,12 @@
+para fixear el pequeño bug que se genera cuando se usa   float: direccion, se utilizan las siguientes líneas de codigo:
+
+.article-container .article{
+    float: direccion;
+    width: X%;
+}
+
+.article-container:after{
+    content: '';
+    display: block;
+    clear: both;
+}

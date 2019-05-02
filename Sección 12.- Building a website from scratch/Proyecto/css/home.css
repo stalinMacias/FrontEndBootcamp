@@ -20,7 +20,7 @@ header{
 
 header a{
     display: inline-block;
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
     color:black;
     transition: background-color 2s;
@@ -34,6 +34,10 @@ header nav li{
     display: inline-block;
 }
 
+.active{
+    background-color: rgba(.1,.1,.1,.1);
+}
+
 header #logo{
     text-align: center;
     font-size:  1.5em;
@@ -44,7 +48,7 @@ header #logo{
 /* intro */
 
 #intro{
-    min-height: 600px;
+    min-height: 400px;
     background-image: url(../img/tiempo.jpg);
     background-size: cover;
 }
@@ -52,7 +56,7 @@ header #logo{
 .intro-text{
     text-align: center;
     position: relative;
-    top:100px;
+    top:50px;
 }
 
 .intro-text h2{
@@ -80,7 +84,6 @@ header #logo{
 
 .intro-text .call-to-action a:hover{
     box-shadow: 10px 10px 25px rgba(0,0,0,0.5);
-    
     background-color: #BBA69B;
 }
 
@@ -101,7 +104,7 @@ header #logo{
     margin: 10px;
 }
 /*Centrar los contenedores de los mensajes al usuario y de las fotos del progeso*/
-.messages-for-usser-container , .highlights-container, .description-container, influcener-containe{
+.messages-for-usser-container , .highlights-container, .description-container, influcener-container{
     max-width: 500px;
     margin: 10px auto;
 }
@@ -200,6 +203,10 @@ header #logo{
 }
 
 /* gym-influencers */
+.influcener-container{
+    margin: 10px auto;
+}
+
 #gym-influencers{
     background-color: white;
     text-align: center;
@@ -218,6 +225,9 @@ header #logo{
     color: gray;
 }
 
+.influencer{
+    margin: 10px auto;
+}
 .influencer img{
     height: 300px;
     width: 300px;
@@ -234,8 +244,8 @@ header #logo{
 }
 
 
+/* *** footer */
 /* Social Media */
-
 footer{
     background-color: black;
     color:white;
@@ -315,19 +325,111 @@ footer{
 
 
 @media screen and (min-width:750px){
-    
+    /* header */
     header #logo{
         display: inline-block;
+        padding: 20px;
+        width: 30%;
     }
     
-    header nav{
+    #barra-navegacion{
         display: inline-block;
+        padding: 20px;
+        width: 70%; 
+        margin-left: -10px;
     }
 
-    
-    header nav a{
-        border-right: 1px solid black;
+    #barra-navegacion nav ul li a{
+        padding: 5px;
     }
+    
+    /* Intro section*/
+    .intro-text{
+        top: 150px;
+    }
+    
+    #intro{
+        min-height: 500px;
+    }
+    
+    /*Seccion de las fotos*/
+    #photos-progress{
+        margin-bottom: 0px;
+    }
+    
+    .messages-for-usser-container{
+        max-width: 650px;
+    }
+    
+    .highlights-container{
+        max-width: 650px;
+    }
+    
+    .highlights-container .highlight{
+        display: inline-block;
+        width: 45%;
+        margin-right: 25px;
+    }
+    
+    /*Seccion de las descripciones y gym influencers*/
+    #describe-progress #follow-msg{
+        max-width: 60%;
+        display: inline-block;
+
+    }
+    
+    #describe-progress #btn-follow{
+        display: inline-block;
+    }
+    
+    .description-container, .influcener-container{
+        max-width: 650px;
+    }
+    
+    .description-container  .description, .influcener-container .influencer{
+        float: left;
+        max-width: 46%;
+        margin-right: 20px;  
+    }
+           
+    .description-container::after, .influcener-container::after, social-media::after, .contact-info::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    /*footer*/
+    .social-media h3{
+        max-width: 20%;
+        float: left;
+    }
+    
+    .social-media #redes{
+        max-width: 45%;
+        padding-top: 10px;
+        margin-left: 25%;
+    }
+    
+    footer .contact-info{
+        padding-top: 20px;
+        max-width: 45%;
+        float: left;
+    }
+    
+    footer .contact-form{
+        margin-left: 35%;
+    }
+    
+    footer .contact-form input{
+        width: 70%;
+    }
+    
+    footer .contact-form button{
+        width: 25%;
+        margin-left: 10px;
+    }
+    
+
 }
 
 
