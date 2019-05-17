@@ -1,0 +1,28 @@
+            Descendant Selectors
+            
+    Se refiere al nivel de los elementos que se pueden ir accediendo utilizando css...
+    
+    <div class="test">
+        <p id="paragraph">
+            <h2>XF</h2>
+        </p>
+    </div>
+    
+    
+        Ejemplo:
+    
+    Utilizando el codigo HTML anterior, el Descendant Selector puede tener hasta 3 niveles de profundidad:
+    
+    .text #paragraph h2{
+        /*El codigo será aplicado especificamente al h2 del id pargraph de la clase .text*/
+    }
+    
+    .text #paragraph{
+        /*El codigo será aplicado especificamente al id paragraph*/
+    }
+    
+    
+    
+    
+    *** Como nota importante, al aplicar un descendant selector es recomendable no profundizar mas de 3 niveles,
+    de lo contrario, el codigo CSS será muy dificil de mantener.

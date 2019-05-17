@@ -1,0 +1,15 @@
+            Universal Selector
+            
+    Este selector selecciona todos los hijos de X container....
+    
+    *** Si no se especifica un container y solamente se usa este selector, seleccionará todos los hijos del docuemnto, es decir, todo....
+    
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing:border-box;
+    }
+    
+    
+    // El codigo anterior se utiliza al iniciar a aplicar estilos a un .html para que se pueda trabajar!

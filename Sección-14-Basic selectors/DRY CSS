@@ -1,0 +1,17 @@
+        DRY CSS -> Dont Repeat Yourself
+        
+        
+    Es el mismo prinicipio de la programación, no repetir código....
+    
+    
+    Si varios elementos compartiran la misma caracteristica, es posible aplicarselas en una misma declaracion...
+    
+    Solamente se deben de ir separando por una coma
+    
+    Puede aplicarse a elementos, id y clases al mismo tiempo...
+    
+    
+    
+    elemento1, elemento2, elemento3, #id1, #id2, .clase1, .clase2{
+        //Caracterisitcas en comun!
+    }
