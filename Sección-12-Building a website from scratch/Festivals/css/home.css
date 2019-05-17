@@ -209,7 +209,7 @@ footer:after{
 /* *** 
    **
    *
-*DISEÑO RESPONSIVE PARA TABLET (A partir de 750px)*/
+*DISEÑO RESPONSIVE PARA TABLET (A partir de 650px)*/
 @media screen and (min-width:650px) and (max-width:1300px){
     /* header menu */
     #menu #title{

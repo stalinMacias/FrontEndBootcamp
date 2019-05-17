@@ -12,3 +12,12 @@
             border-radius: 50% 0px;
     
     
+    *** --- *** --- ** --- *** --- *** --- ** --- ***
+    
+        *Obtener esquinas redondeadas en los botones:
+        
+        Basta con agregar unos cuantos pixeles a esta propiedad:
+        
+        border-radius: 15px;
+    *** --- *** --- ** --- *** --- *** --- ** --- ***
+    

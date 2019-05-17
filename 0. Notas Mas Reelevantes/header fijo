@@ -1,0 +1,23 @@
+    Para hacer que el header pueda quedarse en el top de la pagina todo el tiempo, es decir, que mientras te desplaces por el sitio web el header siempre se encuentre visible, se hace uso de la propiedad:
+    
+        position
+        
+    con su atributo: FIXED.
+    
+    Y para que el ancho no se vea afectado, se debe de indicar el tamaño deseado.
+    
+
+    *** Tambien es importante tomar en cuenta el valor del z-index, ya que si en otros elementos se utiliza la propiedad fixed, se podría ver afectado el efecto que se quiere obtener, es por eso que al header se le debe de asignar un z-index alto para que funcione correctamente.***
+    
+    *** --- *** --- ** --- *** --- *** --- ** --- ***
+    
+    Un ejemplo para un header que se desea que quede fijo y cubra el 100% del ancho sería el siguiente:
+    
+    
+    header{
+        width: 100%;
+        position:fixed;
+        z-index: 99;
+    }
+    
+    *** --- *** --- ** --- *** --- *** --- ** --- ***

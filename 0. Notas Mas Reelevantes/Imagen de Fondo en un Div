@@ -3,19 +3,48 @@ Para poner una imagen de fondo en un div, se usan las siguientes propiedades:
 
 background-image: url(urlImagen);
 background-size: cover  //Con esta propiedad, la imagen se ajusta al tamaño del contenedor
+position: relative;
+min-height: tamañoMinimoParaQueSeVisualiceBien px;
 
+    *Es importantisimo definirle el min-height, de lo contrario, la imagen no se apreciará de la manera que se desea!
 *********************************
 
-Los elementos que estan dentro del elemento al que se selecciono de fondo la imagen, para aplicarseles un margen y que se mantengan dentro del elemento sin distorsionar el diseño, es necesario:
+Los elementos que estan dentro del elemento al que se selecciono de fondo la imagen, para aplicarseles un margen y que se mantengan dentro del elemento sin distorsionar el diseño, es necesario usar la propiedad position con su atributo absolute, pero para esto, el elemento que contiene la imagen debe de tener la propiedad position con el atributo fixed...
 
-position: relative;
+
+position: absolute;
 lugarDeMarge: tamañoMargen;
 
 
 Ejemplo:
 
-position:relative;
+position:absolute;
 top:100px;
 
-
 *********************************
+
+*** --- *** --- ** --- *** --- *** --- ** --- ***
+    Ejemplo:
+    
+    #contenedor-imagen{
+        background-image: url(urlImagen);
+        
+        background-size: cover      //Con esta propiedad, la imagen se ajusta al tamaño del contenedor.
+        
+        background-position: [Puede especificarse desde: "center, rigth, left" o tambien por % o px: 30% 50% o 50px 100px...];          //Esta propiedad permite indicar que porcion de la imagen es la que será visible...
+        
+        position: relative;     //Importante agregar esta propiedad para poder obtener el efecto deseado en sus elementos internos! 
+        
+        min-height: tamañoMinimoParaQueSeVisualiceBien px;
+    }
+    
+    #contenedor-dentro-del-contenedor-de-la-imagen{
+        position: absolute;         //Con esta propiedad se indica que las posiciones que se manejen para este contenedor serán absolutas al contenedor padre, es decir, se manejaran dentro del contenedor de la imagen...
+        
+        top,bottom.... : [Tamaño deseado px]   //Indicar el tamaño al que se desea colocar el contenedor dentro del contenedor de la imagen!
+        
+        // Resto de codigo CSS....
+    }
+    
+
+*** --- *** --- ** --- *** --- *** --- ** --- ***

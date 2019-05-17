@@ -1,0 +1,25 @@
+Para lograr este efecto se hace uso de la propiedad position y sus atributos: relative & absolute...
+
+    *En el contenedor de la imagen y el texto:
+    
+    contenedor-de-la-imagen{
+        position: relative;
+    }
+    
+    *En la imagen
+    
+    img{
+        width: 100%;
+        height: Tamaño px;
+    }
+    
+    *En el texto
+    
+    texto{
+        position: absolute;
+        
+        bottom,top: tamaño... ; //Se usa para indicar donde se desea color (top -> Arriba, bottom -> Abajo)...
+        
+        width: 100%;
+        background-color: color-de-fondo-deseado;
+    }

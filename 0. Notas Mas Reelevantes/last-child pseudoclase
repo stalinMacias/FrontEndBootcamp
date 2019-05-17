@@ -1,0 +1,10 @@
+Esta pseudo-clase :last-child de CSS representa el último elemento entre un grupo de elementos hermanos.
+
+Es decir, todas las clases con el mismo nombre se considerarán como hermanos, y el ultimo de ellos será el que se seleccione automaticamente con este selector!
+
+
+    Ejemplo:    Considerando las clases work, seleccione al ultimo hijo!
+    
+    .work:last-child{
+        /* Codigo CSS */
+    }

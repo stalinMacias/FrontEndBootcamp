@@ -1,0 +1,7 @@
+El efecto atachment hace que cuando una imagen tiene texto o algun mensaje en medio, cuando se desplace hacia arriba o hacia abajode la pagina, la imagen se quede fija y el efecto que se obtiene es que el texto es el que se desplaza no la imagen....
+
+
+    *Se debe usar la propiedad fixed del atributo backgorund-attachment....
+
+
+background-attachment: fixed;
