@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+}
+
+#top-five > p, #top-one > p{
+    display: none;
+}
+
+.course{
+    width: 40%;
+    margin: auto;
+    display: none;
+}
+
+/* Child Selector [Todos los Hijos]*/
+#top-five:hover > .course, #top-one:hover > .course{
+    display: block;
+    
+}
+
+#top-five .course, #top-one .course{
+    margin-top: 30px;
+    width: 80%;
+}
+#top-five .course h2, #top-one .course h2{
+    width: 100%;
+    background-color: azure;
+    color: black;
+    margin: auto;
+}
+
+/* General Sibling Selector [Todos los Hermanos]*/
+#top-five:hover ~ .course {
+    display: block;
+    
+}
+
+/* Sibling Selector [El primer hermano]*/
+#top-one:hover + .course{
+    display: block;
+}.
+
+#top-one:hover + .course{
+    display: block;
+}
+
+.course h2, .course p{
+    display: inline-block;
+    width: 20%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.course h2{
+    background-color: antiquewhite;
+}
+
+.course p{
+    background-color: aquamarine;
+}
+
+button{
+    padding: 10px;
+    border-style: none;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: burlywood;
+    color: white;
+    font-size: 15px;
+}

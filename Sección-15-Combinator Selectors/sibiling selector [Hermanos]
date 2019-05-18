@@ -1,0 +1,37 @@
+            Sibling Selector
+        
+        Se utiliza el simbolo de suma ( + )
+        
+        Se selcciona el hermano adyacente de lo que se le indique...
+        
+        
+        Ejemplo:
+        
+        Selecciona el hermano adyacente del id prro
+        
+        
+        <div>
+            <p>Hola </p>
+        </div>
+        
+        <div id="prro">
+            <h1>hei</h1>
+        </div>
+        
+        <div>
+            <h1>Im sibling</h1>
+        </div>
+        
+        
+        
+        
+        ******************** ----------------------- ************************* -----------------------
+                                General Sibling Selector
+                                
+            Se usa para seleccionar todos los hermanos del elemento indiciado
+            
+            Se representa con el simobolo ~
+            
+            div ~ p {
+            
+            }

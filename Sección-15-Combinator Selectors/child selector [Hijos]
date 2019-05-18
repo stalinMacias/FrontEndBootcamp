@@ -1,0 +1,36 @@
+                Child Combinator
+                
+        Este combinator se aplica a todos los hijos que se encuentren en el mismo nivel que se le indica...
+        Por nivel nos referimos a que no se encuentren inmersos de otro elemento, clase, etc...
+        
+        Pueden estar X elementos hijos en el mismo nivel, y despues a ver otros que no esten el mismo y por ultimo otra vez mas hijos del mismo nivel, sin ningun problema este combinator le aplica el estilo a aquellos que esten en el mismo nivel, sin importar que no esten consecutivamente!
+        
+        *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- 
+            Caracter para poder trabajar con el Child Combinator:
+                        
+                        >
+                        
+        *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- 
+    
+        
+        Ej:
+        
+        .wrapp > h2 {
+            //Codigo CSS
+        }
+        
+        <div class="wrapp">
+            <h2>Este tendra estilo con child selector</h2>
+                
+            <h2>Y este tambin</h2>
+            
+            <div>
+                <h2>Este esta dentro de la misma clase pero en un contenedor, osea, un nivel mas adentro</h2>
+            </div>
+            
+            <h2>Este esta en el mismo nivel de los 2 primeros</h2>
+        
+        </div>
+        
+        
+        *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- 
