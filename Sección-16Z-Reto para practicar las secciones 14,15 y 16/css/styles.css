@@ -1,0 +1,83 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+.container, .curva-aprendizaje{
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.orden-tecnologias,.orden-tecnologias ~ .container{
+    margin: 0px auto 15px;
+    text-align: center;
+    padding: 15px 10px;
+    border-bottom: 4px solid black;
+    /*display: none;*/
+}
+
+.container h1, .container .imagenes-tecnologia h5{
+    padding: 10px 20px;
+}
+
+.curva-aprendizaje{
+    padding-bottom: 20px;
+}
+
+.curva-aprendizaje > .container{
+    background-color: aqua;
+}
+
+.container h3{
+    padding: 10px;
+    background-color: blanchedalmond;
+    color: goldenrod;
+}
+
+.container .nombre-tecnologia{
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.container .imagenes-tecnologia > img{
+    margin-top: 10px;
+    width: 65%;
+    height: 100px;
+    
+}
+
+.container .imagenes-tecnologia > img:last-child{
+    width: 100%;
+    height: 100px;
+}
+
+.curva-aprendizaje > .container{
+    display: none;
+}
+
+#learn-more{
+    width: 60%;
+    margin: 20px auto 0px;
+    padding: 20px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: mediumaquamarine;
+    padding-right: 35px;
+}
+
+a[target="_blank"]{
+    background-image: url(../img/link_externo.jpg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/*Aplicar los selector para obtener el efecto de mostrar cuando el mouse pase por encima de X elemento!*/
+.curva-aprendizaje:hover > .container{
+    display: block;
+}

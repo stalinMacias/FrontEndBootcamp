@@ -1,0 +1,26 @@
+.link{
+    text-decoration: none;
+    padding: 10px 25px;
+    text-align: center;
+    border-bottom: 6px solid cadetblue;
+    color: green;
+    margin: 15px 20px ;
+    display: inline-block;
+}
+
+.link p{
+    display: inline-block;
+}
+
+a[target="_blank"]{
+    background-image: url(../img/link_externo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: right;
+    padding-right: 40px;
+}
+
+a[target="_blank"] > p{
+    margin-right: 10px;
+}

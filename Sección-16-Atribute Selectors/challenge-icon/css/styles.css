@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#documents-section{
+    background-color: beige;
+    width: 50%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+a{
+    display: block;
+    padding: 10px;
+    margin: 20px auto;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    width: 60%;
+    border: 5px dashed tomato;
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-color: white;
+}
+
+a[href$="pdf"]{
+    background-image: url(../img/pdf.png);
+}
+
+a[href$="word"]{
+    background-image: url(../img/word.png);s
+}
+
+a h2{
+    margin-left: 25%;
+}
+
+
+
+
+/*  
+
+#documents-section  h2 i{
+    max-width: 70px;
+    margin-left: 25%;
+}
+
+    Aplicar estilo a los iconos que terminen con la palabra word
+#documents-section  h2 i[class$='word']{
+    color: blue;
+}
+
+    Aplicar estilo a los iconos que terminen con la palabra pdf
+#documents-section  h2 i[class$='pdf']{
+    color: red;
+}
+
+#documents-section h2 i{
+    font-size: 1.5em;
+    margin-right: 3%;
+}
+*/

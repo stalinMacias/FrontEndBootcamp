@@ -1,0 +1,22 @@
+                Atribute Selectors
+        
+        The [attribute] selector is used to select elements with a specified attribute.
+        
+        
+        CSS permite seleccionar y manipular los elementos tambien por sus atributos.
+        
+        Por ejemplo, en los elementos <a > (Links), tienen el atributo "target", el cual indica como se abrira el link cuando se clickee, haciendo uso del atribute selector, puedes darle un estilo a aquellos elementos a que tengan este atributo definido....
+        
+        
+        <a href="#inicio">
+        a href="www.google.com" target="_blank">        <!-- Se abrira en una pestaña nueva -->
+        a href="about-us.html">
+        
+        
+        
+        *** En CSS ***
+        
+        a[target]{
+            /* Codigo CSS */
+        }
+        

@@ -1,0 +1,11 @@
+            Imagen de fondo en un <a >....
+            
+        Para poner una imagen de fondo (Tipo icono) y se visaulice bien, se puede hacer uso de las siguientes propiedades para ajustar la imagen a la perfección...
+        
+        
+        a{
+            background-image: url(....);
+            background-size: tamañoPX;
+            background-repeat: no-repeat;
+            background-position: posicionDeLaImagen px,%;
+        }
