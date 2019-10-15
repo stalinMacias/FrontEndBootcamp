@@ -1,0 +1,52 @@
+                        ***     Pseudo Class Selector   ***
+                
+                A pseudo class selector permite seleccionar elementos dependiendo del estado en el que se encuentre..
+                
+            
+            Pseudo Clases mas utilizadas comunmente:
+            
+            * link          -> Cuando un a tiene un href xd
+            * visited       -> Cuando un link ha sido visitado
+            * hover         -> Cuando se pasa el mouse por encima del elemento
+            * active        -> Cuando el elemento es clickeado (Al dejar de estar presionado se pierde el efecto!)
+            * focus         -> Cuando el elemento gana el focus!
+           
+            *checked        -> Se usa con checkbox, radio button, etc y se aplica cuando el elemento cambia a su estado de checked!
+           
+           
+           *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- 
+                                    Para ver mas pseudoclases visitar el siguiente link:
+
+
+                            https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes
+
+           *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- *** --- 
+
+                            
+                                
+                            Pseudo Class Selector: "not & empty"
+                            
+        *not           -> Se usa para separar aquellos elementos que se indiquen en el parentesis para que no se les aplique el estilo que se esta definiendo al resto de elemento del mismo tipo
+            
+                    Example:
+                    
+                        element:not(element){
+                            //Codigo CSS
+                        }
+        
+        
+        *empty         -> Cuando en el sitio web se trabaja con ajax y js, es recomendable ocultar todos los elementos que se encuentres vacios, y hasta que se les vaya a insertar contenido                       será el momento de mostrarlos!
+            
+                    Example:
+                    
+                        element:empty{
+                            //Codigo CSS
+                        }
+            
+            
+            
+            
+            
+            
+            
+            

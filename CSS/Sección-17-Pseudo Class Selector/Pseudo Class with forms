@@ -1,0 +1,21 @@
+                        Pseudo class with forms
+                        
+            Tambien se puede aplicar a los form las pseudo clases selector:
+            
+            * valid         -> Si los datos introducidos son validos [Ej: Valores minimos y maximos a introducir: Se definen en el input min='' max='']
+            * invalid       -> Si los datos introducidos son invalidos, tambien se deben definir los valores como en valid!
+            * required      -> Si el input tiene definido el atributo required!
+            * optional      -> Por default, los input tienen definido el atributo optional!
+            
+            
+            
+            
+            
+            
+            
+            
+            Ejemplo de como usar checked a un checkbox en un form!
+            
+            input[type="checkbox"]:checked{
+            
+            }

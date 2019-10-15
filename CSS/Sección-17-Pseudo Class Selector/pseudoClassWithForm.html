@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> Pseudo Class Selector With Forms </title>
+        
+        <style>
+            input, form p{
+                display: inline-block;
+                margin: 10px auto;
+                padding: 15px 40px;
+                width: 40%;
+            }
+            input[type="checkbox"]{
+                width: 5%;
+                margin: 5px 20px;
+                display: inline-block;
+            }
+            button[type="submit"]{
+                display: block;
+                margin: 10px auto;
+                padding: 15px 25px;
+            }
+            
+            
+            input[type="checkbox"]:checked ~ p{
+                display: block;
+            }
+            
+            .hidden-text{
+                display: none;
+            }
+            
+            input:required{
+                background-color: antiquewhite;
+            }
+            input:optional{
+                background-color: azure;
+            }
+            
+            input:valid + p{
+                background-color: skyblue;
+            }
+            
+            input:invalid + p{
+                background-color: red;
+            }
+        </style>
+    </head>
+
+	<body>
+        
+        <form>
+            
+            <input type="number" min="10" max="20" placeholder="Solamente numeros del 10 al 20">
+            <p>Si esta en rojo el valor ingresado esta fuera de rango</p>
+            
+            <input type="text" placeholder="Ingrese su nombre" required>
+            <p>Si esta en rojo significa que es un campo obligatorio</p>
+            <div>
+                <input type="checkbox" name="estudiante" value="estudiante">Es usted estudiante?
+                <p class="hidden-text">Usted es estudiante</p>
+            </div>
+            
+            
+            <button type="submit">Enviar</button>
+        </form>
+    
+        
+    </body>
+    
+</html>

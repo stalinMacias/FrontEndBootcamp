@@ -1,0 +1,8 @@
+                        La pseudoclass :target de CSS permite aplicar estilo cuando se accede a una sección o X elemento a traves de un limk de la misma pagina....
+                        
+                Es decir, cuando un link tiene ligada X sección de la pagina web. dicha seccion obtiene el estado de target y el codigo CSS sería aplicado a dicha sección....
+                
+                
+                elemento:target{
+                    //Codigo CSS
+                }
